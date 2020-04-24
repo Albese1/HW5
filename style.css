@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 970px;
+    height: auto;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+.header img{
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    opacity: 0.7;
+}
+.header .text{
+    color: white;
+    position: absolute;
+    top: 20%;
+    margin-left: 8%;
+}
+.text h1{
+    width: 60%;
+}
+.text h5{
+    margin-left: 20px;
+}
+.text span{
+    margin-left: 20px;
+}
+#p1, #p2{
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 7px;
+    font-size: 12px;
+
+}
+#p1{
+    margin-left: 50px;
+    background-color: #763bb1;
+}
+#p2{
+    background-color: #8d1074;
+}
+
+.main{
+    width: 100%;
+    text-align: center;
+    /*border: 1px solid  skyblue;*/
+}
+.main h2{
+     margin-top: 5%;
+    font-family: "Times New Roman";
+    color: #222222;
+    margin-bottom: 60px;
+}
+.box{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.main-box-1{
+    width: 35%;
+    height: 200px;
+    /*border: 1px solid black;*/
+}
+.main-box-1 img{
+    margin-top: 10px;
+    width: 50px;
+}
+.main-box-1 h4{
+    padding: 15px;
+}
+#img2,#img3{
+    width: 35px;
+}
+.main-box-2{
+    width: 100%;
+    height: 230px;
+    margin-top: 40px;
+    /*border: 1px solid olive;*/
+}
+#img-4 {
+    width: 100%;
+    height: 200px;
+    opacity: 0.7;
+}
+#img-5{
+    width: 60px;
+    height: 50px;
+    position: relative;
+    bottom: 180px;
+    border-radius: 50%;
+}
+.main-box-2 p{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    bottom: 170px;
+    width: 60%;
+    left: 200px;
+}
+article{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+}
+.article-box{
+    width: 20%;
+}
+.article-box img{
+    width: 40px;
+}
+.article-box p{
+    font-size: 20px;
+}
+.article-box h6{
+    color: blue;
+}
+section{
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    /*border: 1px solid black;*/
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
+}
+section img{
+    width: 260px;
+    height: 270px;
+    margin-left: 220px;
+    border-radius: 5px;
+}
+section h2{
+    vertical-align: top;
+    width: 30%;
+    margin: 30px 30px;
+}
+section div{
+    position: relative;
+    top: 130px;
+    right: 290px;
+}
+section ul{
+    width: 150px;
+}
+section p{
+    margin-top: 15px;
+    background-color: rebeccapurple;
+    border-radius: 20px;
+    width: 80px;
+    padding: 7px;
+    color: white;
+}
+.beforeBottom{
+    text-align: center;
+}
+.boxClass{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.beforeBottom-box{
+    width: 150px;
+    height:200px;
+    /*border: 1px solid yellow;*/
+}
+.beforeBottom-box img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+.beforeBottom-box p{
+    color: blue;
+    margin-top: 10px;
+}
+.beforeBottom h2{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.beforeBottom p{
+    margin-bottom: 10px;
+    color: blue;
+}
+#imgg{
+    display: inline-block;
+    width: 20px;
+    height: 15px;
+    margin-top: 10px;
+}
+.beforeBottom-box h5{
+    margin: 2px
+}
+footer{
+    background-image: url("photos/nature.jpg");
+    opacity: 0.8;
+    /*border: 2px solid  skyblue;*/
+    background-size: cover;
+    padding: 10px 150px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer > article {
+    width: 50%;
+    display: block;
+}
+footer progress {
+    width: 100%;
+}
+#leftSide {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 200px;
+    justify-content: space-between;
+}
+#leftSide > span{
+    height: 20px;
+
+}
+#footerBox {
+    margin-top:20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#footerBox > *  {
+    width: calc(50% - 10px);
+    padding: 5px;
+    color: white;
+}
+#footerBox img {
+    width: 30px;
+    height: 30px;
+}
+#leftSide h1{
+    margin-top: 40px;
+    color: white;
+}
+#leftSide span{
+    color: white;
+    margin-top: 10px;
+}
+#footerBox img{
+    display: inline-block;
+    border-radius: 10px;
+}
+#footerBox h4{
+    margin-left: 0px;
+    display: inline-block;
+    border-bottom: 2px solid white;
+}
+#footerBox p{
+    margin-top: 10px;
+}
